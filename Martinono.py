@@ -32,7 +32,7 @@ for mots in motsrecherches:
     for x, y in enumerate(mots[:-1]): 
 	    bigrams="{} {}".format(racines[x], racines[x+1])
         if "islam" in bigrams or "musulm" in bigrams:
-        print(bigrams)
+        # print(bigrams)
         bigram.append(bigrams)
 
 freq = Counter(bigram)
